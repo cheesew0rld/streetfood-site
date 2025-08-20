@@ -1,17 +1,128 @@
 body {
-    background-color:#649549;
-    font-family: Poppins;
+    background-color:white;
+    font-family: Poppins, sans-serif;
 }
+
+/* .content {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh;
+} */
+
 
 .center-heading {
     display:flex;
     flex-direction: column;
     align-items:center;
     justify-content:center;
-    row-gap: 10px;
+    row-gap: 0.1rem;
 }
 
-.star icon{
-    color: black;
-    font-size: 20px;
+.center-heading h1 {
+    font-weight: bolder;
+    margin-top: -25px;
 }
+
+.star-icon {
+    font-size: 7rem;
+}
+
+footer {
+    background-color: #C9ECB5;
+}
+
+.contact-section {
+    background-color: #FFD77C;
+}
+
+.deals-section {
+    background-color: #C9ECB5;
+}
+
+button {
+    background-color:#6CB840;
+    color: white;
+    padding: 10px 30px;
+    border:none;
+    border-radius: 25px;
+    cursor: pointer;
+    /* font-family: Poppins; */
+    font-weight:bolder;
+}
+
+.together-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.together-section h2 {
+    color:#FFD77C ;
+    font-family:'Poppins', sans-serif;
+}
+
+.section-head {
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.green {
+    color:#6CB840
+}
+
+.orange {
+    color:#EAAB1B ;
+}
+
+.explore-section {
+    background-color: #eaf6e2;
+}
+
+.burger-container {
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px 20px;
+    justify-items:center;
+    margin:40px 0;
+}
+
+.burger-card {
+    display:flex;
+    align-items:flex-start;
+    background:#fff;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    width: 340px;
+    padding-right:20px;
+    gap: 16px;
+    padding-top: 10px;
+}
+
+.burger-card img {
+    width:210px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: -100px;
+    margin-bottom: -30px;
+}
+
+.burger-info h3 {
+    font-family: Poppins, sans-serif;
+    font-size:1.2rem;
+    font-weight:bold;
+    margin-left: -100px;
+    margin-top: -1px;
+}
+
+.burger-info p {
+    font-family:Poppins;
+    font-size:1 rem;
+    margin: 0;
+}
+
+
+
