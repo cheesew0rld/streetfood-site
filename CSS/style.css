@@ -27,6 +27,10 @@ body {
     margin-top: -9px;
 }
 
+.first-part button {
+    margin-bottom: 70px;
+}
+
 .first-section {
     display: flex;
     gap: 150px;
