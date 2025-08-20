@@ -185,5 +185,13 @@ button {
     margin: 0;
 }
 
+.contact-section {
+    text-align: center;
+}
+
+.contact-section p {
+    width:300px;
+    margin-left: 489px;
+}
 
 
