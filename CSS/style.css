@@ -29,13 +29,32 @@ body {
     font-size: 7rem;
 }
 
-.ellipse-bg {
+.first-section {
+    display: flex;
+    gap: 150px;
+}
+
+.first-section-info {
+    margin-left: 50px;
+}
+
+.first-section p {
+    width: 340px;
+}
+
+/* .ellipse-bg {
     position:absolute;
     width: 100%;
     height: 500px;
     background: transparent;
     overflow: hidden;
 }
+
+.ellipse-content {
+    position:absolute;
+    top:100px;
+
+} */
 
 footer {
     background-color: #C9ECB5;
