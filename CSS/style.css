@@ -1,0 +1,17 @@
+body {
+    background-color:#649549;
+    font-family: Poppins;
+}
+
+.center-heading {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    row-gap: 10px;
+}
+
+.star icon{
+    color: black;
+    font-size: 20px;
+}
