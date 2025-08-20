@@ -58,9 +58,24 @@ button {
     justify-content: center;
 }
 
+.together-info {
+    text-align: center;
+    font-size: larger;
+    margin-top: 0px;
+}
+
 .together-section h2 {
     color:#FFD77C ;
     font-family:'Poppins', sans-serif;
+}
+
+.together-section p {
+    text-align: center;
+    width: 295px;
+}
+
+.together-section img {
+    width: 600px;
 }
 
 .section-head {
