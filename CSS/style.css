@@ -22,6 +22,8 @@ body {
 
 .first-part {
     background-color: #E5E5E5;
+    margin-left: -9px;
+    margin-right:-9px;
 }
 
 .first-section {
@@ -47,6 +49,10 @@ footer {
 
 .deals-section {
     background-color: #C9ECB5;
+    margin-bottom: 0px;
+    padding-bottom:0px;
+    margin-left: -9px;
+    margin-right: -9px;
 }
 
 .deals-section .section-head {
@@ -129,6 +135,8 @@ button {
     font-family:'Poppins', sans-serif;
     font-size: 2rem;
     font-weight: bold;
+    margin-top: -38px;
+    padding-top: 20px;
 }
 
 .green {
@@ -141,6 +149,8 @@ button {
 
 .explore-section {
     background-color: #eaf6e2;
+    margin-left: -9px;
+    margin-right: -9px;
 }
 
 .burger-container {
@@ -187,6 +197,10 @@ button {
 
 .contact-section {
     text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: -9px;
+    margin-right: -7px;
 }
 
 .contact-section p {
