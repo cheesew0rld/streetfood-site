@@ -44,72 +44,6 @@ body {
     width: 340px;
 }
 
-footer {
-    background-color: #C9ECB5;
-}
-
-.contact-section {
-    background-color: #FFD77C;
-}
-
-.deals-section {
-    background-color: #C9ECB5;
-    margin-bottom: 0px;
-    padding-bottom:0px;
-    margin-left: -9px;
-    margin-right: -9px;
-}
-
-.deals-section .section-head {
-    text-align:center;
-}
-
-.deals-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.deals-images {
-    display: flex;
-}
-
-.meaty {
-    height: 300px;
-    margin-left: -300px;
-    margin-top: 190px;
-}
-
-.juice {
-    margin-top: -140px;
-    height: 590px;
-}
-
-.deals-info h2 {
-    color:#EAAB1B;
-}
-
-.deals-info h3 {
-    font-size: x-large;
-}
-
-.pizz-info p {
-    margin-right: 50px;
-    text-align: center;
-    width: 300px;
-}
-
-button {
-    background-color:#6CB840;
-    color: white;
-    padding: 10px 30px;
-    border:none;
-    border-radius: 25px;
-    cursor: pointer;
-    /* font-family: Poppins; */
-    font-weight:bolder;
-}
-
 .together-section {
     display: flex;
     align-items: center;
@@ -201,22 +135,86 @@ button {
     margin: 0;
 }
 
+.deals-section {
+    background-color: #C9ECB5;
+    margin-bottom: 0px;
+    padding-bottom:0px;
+    margin-left: -9px;
+    margin-right: -9px;
+}
+
+.deals-section .section-head {
+    text-align:center;
+}
+
+.deals-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deals-images {
+    display: flex;
+}
+
+.meaty {
+    height: 300px;
+    margin-left: -300px;
+    margin-top: 190px;
+}
+
+.juice {
+    margin-top: -140px;
+    height: 590px;
+}
+
+.deals-info h2 {
+    color:#EAAB1B;
+}
+
+.deals-info h3 {
+    font-size: x-large;
+}
+
+.pizz-info p {
+    margin-right: 50px;
+    text-align: center;
+    width: 300px;
+}
+
 .contact-section {
     text-align: center;
     margin-top: 0px;
     padding-top: 0px;
     margin-left: -9px;
     margin-right: -7px;
+    background-color: #FFD77C;
 }
 
 .contact-section p {
     width:300px;
-    margin-left: 489px;
+    margin:auto ;
+    text-align: center;
 }
 
 .contact-section button {
     margin-top: 30px;
     margin-bottom: 100px;
+}
+
+footer {
+    background-color: #C9ECB5;
+}
+
+button {
+    background-color:#6CB840;
+    color: white;
+    padding: 10px 30px;
+    border:none;
+    border-radius: 25px;
+    cursor: pointer;
+    /* font-family: Poppins; */
+    font-weight:bolder;
 }
 
 
