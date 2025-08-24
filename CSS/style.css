@@ -88,8 +88,8 @@ body {
 
 .explore-section {
     background-color: #eaf6e2;
-    margin-left: -9px;
-    margin-right: -9px;
+    margin-left:10px;
+    margin-right:10px;
     margin-top: 40px
 }
 
@@ -139,8 +139,8 @@ body {
     background-color: #C9ECB5;
     margin-bottom: 0px;
     padding-bottom:0px;
-    margin-left: -9px;
-    margin-right: -9px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .deals-section .section-head {
@@ -186,8 +186,8 @@ body {
     text-align: center;
     margin-top: 0px;
     padding-top: 0px;
-    margin-left: -9px;
-    margin-right: -7px;
+    margin-left: 10px;
+    margin-right: 10px;
     background-color: #FFD77C;
 }
 
@@ -209,7 +209,9 @@ footer {
     align-items: flex-start;
     padding: 40px 60px;
     font-family: Arial, sans-serif;
-    margin: -9px;
+    margin-bottom: -9px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .footer-column {
