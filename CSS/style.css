@@ -211,6 +211,15 @@ body {
     margin-bottom: 100px;
 }
 
+.email-card {
+    display: inline-block;
+    background: #f8f9fa;
+    border-left: 4px solid #6c5ce7;
+    padding: 20px;
+    border-radius: 80px 80px 80px 80px;
+    padding-right: 300px;
+}
+
 footer {
     background-color: #C9ECB5;
     display: flex;
