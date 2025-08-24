@@ -90,7 +90,8 @@ body {
     background-color: #eaf6e2;
     margin-left:10px;
     margin-right:10px;
-    margin-top: 40px
+    margin-top: 40px;
+    padding-bottom: 70px;
 }
 
 .burger-container {
@@ -107,32 +108,40 @@ body {
     background:#fff;
     border-bottom-right-radius: 24px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    width: 340px;
+    width: 290px;
     padding-right:20px;
     gap: 16px;
     padding-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    height: 100px;
 }
 
 .burger-card img {
-    width:210px;
+    /* width:150px;
     object-fit: cover;
-    border-radius: 50%;
-    margin-left: -100px;
-    margin-bottom: -30px;
+    margin-left: -70px;
+    margin-bottom: -400px; */
+    position: relative;
+    bottom: -7px;
+    left:-55px;
+    width: 150px;
 }
 
 .burger-info h3 {
     font-family: Poppins, sans-serif;
     font-size:1.2rem;
     font-weight:bold;
-    margin-left: -100px;
+    margin-left: -130px;
     margin-top: -1px;
 }
 
 .burger-info p {
     font-family:Poppins;
     font-size:1 rem;
-    margin: 0;
+    margin-top: -15px;
+    width: 190px;
+    margin-left: -60px;
 }
 
 .deals-section {
